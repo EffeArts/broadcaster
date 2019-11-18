@@ -24,19 +24,31 @@
 		</div>
 		<i class="fa fa-bars menu-toggle" onclick="menuToggler()"></i>
 		<ul class="nav" id="nav">
-			<li>
-				<a href="register.html">SignUp</a>
-			</li>
+			<li><a href="./index.html">Login</a></li>
 		</ul>
 	</header>
-
+	
 	<!-- Page wrapper -->
 	<div class="page-wrapper">
 		<!-- auth-content -->
 		<div class="auth-content">
 			<form action="./redflags/index.html" method="post">
-				<h2 class="form-title">Login</h2>
-				
+				<h2 class="form-title">SignUp</h2>
+				<div>
+					<label for="fname">First Name</label>
+					<input type="text" name="fname" class="text-input">
+				</div>
+
+				<div>
+					<label for="lname">Last Name</label>
+					<input type="text" name="lname" class="text-input">
+				</div>
+
+				<div>
+					<label for="email">Email</label>
+					<input type="email" name="email" class="text-input">
+				</div>
+
 				<div>
 					<label for="username">Username</label>
 					<input type="text" name="username" class="text-input">
@@ -48,14 +60,20 @@
 				</div>
 
 				<div>
-					<button type="submit" name="submit-button" class="btn btn-big btn-block">Login</button>
+					<label for="passwordConf">Confirm Password</label>
+					<input type="password" name="passwordConf" class="text-input">
 				</div>
 
-				<p>Not yet signed up? <a href="./register.html">SignUp here.</a></p>
+				<div>
+					<button type="submit" name="submit-button" class="btn btn-big btn-block">Sign Up</button>
+				</div>
+
+				<p>Already signed up? <a href="./index.html">Login here.</a></p>
 
 			</form>
 		</div>
 	</div>
+	
 	<!-- footer -->
 	<div class="footer">
 		<div class="footer-content">
