@@ -1,0 +1,22 @@
+{
+  "name": "broadcaster",
+  "version": "1.0.0",
+  "description": "Andela Developer Challenge\r Developed by Ishimwe Ayman\r copyright 2019",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EffeArts/broadcaster.git"
+  },
+  "author": "Ishimwe Ayman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EffeArts/broadcaster/issues"
+  },
+  "homepage": "https://github.com/EffeArts/broadcaster#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
