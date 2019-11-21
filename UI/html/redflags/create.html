@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+   <!-- font awesome -->
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.css">
+
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+
+   <!-- Custom Styling -->
+   <link rel="stylesheet" type="text/css" href="../../css/styles.css">
+   <title>Create a red-flag</title>
+</head>
+
+<body>
+   <!-- Header -->
+   <header>
+      <div class="logo">
+         <h1 class="logo-text">
+
+            Broadcaster
+         </h1>
+      </div>
+      <i class="fa fa-bars menu-toggle" onclick="menuToggler()"></i>
+      <ul class="nav" id="nav">
+         <li>
+            <a href="#">
+               <i class="fa fa-user"></i>
+               Ange Kagame
+               <i class="fa fa-chevron-down"></i>
+            </a>
+            <ul id="dropdown-nav">
+               <li><a href="#">Profile</a></li>
+               <li><a href="../index.html" class="logout">Logout</a></li>
+            </ul>
+         </li>
+      </ul>
+   </header>
+
+   <!-- dashboard wrapper -->
+   <div class="dashboard-wrapper">
+      <!-- left sidebar -->
+      <div class="left-sidebar">
+         <ul>
+            <li>
+               <a href="./index.html">Red flags</a>
+            </li>
+            <li>
+               <a href="../interventions/interventions.html">Interventions</a>
+            </li>
+         </ul>
+      </div>
+
+      <!-- dashboard content -->
+      <div class="dashboard-content">
+         <div class="button-group">
+            <a href="./redflags.html" class="btn btn-big">Manage Red-Flags</a>
+         </div>
+
+         <div class="content">
+            <h2 class="page-title"> Create a Red-Flag</h2>
+            <form action="./redflags.html" method="">
+               <div>
+                  <label>Title</label>
+                  <input type="text" name="title" class="text-input" />
+               </div>
+               <div>
+                  <label>Description</label>
+                  <input type="text" name="desc" class="text-input" />
+               </div>
+               <h3>Geo-location</h3>
+               <hr />
+               <div>
+
+                  <label>Longitude</label>
+                  <input type="text" name="longitude" class="text-input" />
+               </div>
+               <div>
+                  <label>Latitude</label>
+                  <input type="text" name="latitude" class="text-input" />
+               </div>
+
+               <h3>Supporting Media</h3>
+               <hr />
+               <div>
+
+                  <label>Images</label>
+                  <input type="file" name="images[]" accept="image/*" class="text-input" multiple="" />
+               </div>
+               <div>
+                  <label>Videos</label>
+                  <input type="file" name="videos[]" accept="video/*" class="text-input" multiple="" />
+               </div>
+               <div>
+                  <button type="submit" name="submit-button" class="btn btn-big">
+                     Submit red-flag
+                  </button>
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <script type="text/javascript" src="../js/scripts.js"></script>
+</body>
+
+</html>
