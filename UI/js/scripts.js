@@ -6,3 +6,9 @@ const menuToggler = () =>{
 	dropdown.classList.toggle("showing");
 	// alert("bars clicked");
 }
+
+// Deletion confirmation box
+
+const deleteConfirmation = () =>{
+	confirm("Are you sure you want to delete this?");
+}

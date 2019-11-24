@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+	<!-- font awesome -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+
+	<!-- Custom Styling -->
+	<link rel="stylesheet" type="text/css" href="../../css/styles.css">
+	<title>Admin | Red-Flags</title>
+</head>
+<body>
+	<!-- Header -->
+	<header>
+		<div class="logo">
+			<h1 class="logo-text">
+				
+				Broadcaster
+			</h1>
+		</div>
+		<i class="fa fa-bars menu-toggle" onclick="menuToggler()"></i>
+		<ul class="nav" id="nav">
+			<li>
+				<a href="#">
+					<i class="fa fa-user"></i>
+					Ishimwe Ayman
+					<i class="fa fa-chevron-down"></i>
+				</a>
+				<ul id = "dropdown-nav">
+					<li><a href="#">Profile</a></li>
+					<li><a href="../index.html" class="logout">Logout</a></li>
+				</ul>
+			</li>
+		</ul>
+	</header>
+
+	<!-- dashboard wrapper -->
+	<div class="dashboard-wrapper">
+		<!-- left sidebar -->
+		<div class="left-sidebar">
+			<ul>
+				<li>
+					<a href="./dashboard.html">Dashboard</a>
+				</li>
+				<li>
+					<a href="./redflags.html">Manage Red-flags</a>
+				</li>
+				<li>
+					<a href="./Interventions.html">Manage Interventions</a>
+				</li>
+				<li>
+					<a href="./users.html">Manage Users</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- dashboard content -->
+		<div class="dashboard-content">
+
+			<div class="content">
+				<h2 class="page-title"> Manage Red-Flags</h2>
+				<table>
+					<thead>
+						<th>SN</th>
+						<th>Title</th>
+						<th>Location</th>
+						<th>Submission Date</th>
+						<th>Submission By</th>
+						<th colspan="2">Action</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Ruswa</td>
+							<td>Wasac</td>
+							<td>July 7, 2019</td>
+							<td>Munyentwali Alli</td>
+							<td>
+								<select>
+									<option selected disabled> Change Status</option>
+									<option>Under Investigation</option>
+									<option>Rejected</option>
+									<option>Resolved</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr>
+							<td>2</td>
+							<td>Akarenage</td>
+							<td>Dasso</td>
+							<td>January 17, 2018</td>
+							<td>Sebahizi Claire</td>
+							<td>
+								<select>
+									<option selected disabled> Change Status</option>
+									<option>Under Investigation</option>
+									<option>Rejected</option>
+									<option>Resolved</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr>
+							<td>3</td>
+							<td>No care</td>
+							<td>Reg</td>
+							<td>March 23, 2019</td>
+							<td>Genzi Claude</td>
+							<td>
+								<select>
+									<option selected disabled> Change Status</option>
+									<option>Under Investigation</option>
+									<option>Rejected</option>
+									<option>Resolved</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr>
+							<td>4</td>
+							<td>Ubuteka mitwe</td>
+							<td>Police</td>
+							<td>August 20, 2019</td>
+							<td>Sebanani</td>
+							<td>
+								<select>
+									<option selected disabled> Change Status</option>
+									<option>Under Investigation</option>
+									<option>Rejected</option>
+									<option>Resolved</option>
+								</select>
+							</td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../../js/scripts.js"></script>
+</body>
+</html>
