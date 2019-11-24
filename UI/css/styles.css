@@ -15,7 +15,7 @@ html, body{
 
 header{
 	background-color: #024959;
-	height: 66px;
+	height: 63px;
 }
 
 header *{
@@ -56,7 +56,7 @@ header ul li i.fa{
 
 header ul li ul{
 	position: absolute;
-	top: 66px;
+	top: 63px;
 	right: 0px;
 	width: 180px;
 	display: none;
@@ -219,7 +219,7 @@ header .menu-toggle{
 .dashboard-wrapper{
 	min-height: 85%;
 	display: flex;
-	height: calc(100% - 66px);
+	height: calc(100% - 63px);
 }
 
 .dashboard-wrapper .left-sidebar{
